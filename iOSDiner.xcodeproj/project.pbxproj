@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		722DCCEE15EE09300039BDF7 /* IODItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 722DCCED15EE09300039BDF7 /* IODItem.m */; };
+		722DCCF115EE095F0039BDF7 /* IODOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 722DCCF015EE095F0039BDF7 /* IODOrder.m */; };
 		729C07E715ED98510082C277 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729C07E615ED98510082C277 /* UIKit.framework */; };
 		729C07E915ED98510082C277 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729C07E815ED98510082C277 /* Foundation.framework */; };
 		729C07EB15ED98510082C277 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729C07EA15ED98510082C277 /* CoreGraphics.framework */; };
@@ -60,6 +62,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		722DCCEC15EE09300039BDF7 /* IODItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IODItem.h; path = Models/IODItem.h; sourceTree = "<group>"; };
+		722DCCED15EE09300039BDF7 /* IODItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IODItem.m; path = Models/IODItem.m; sourceTree = "<group>"; };
+		722DCCEF15EE095F0039BDF7 /* IODOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IODOrder.h; path = Models/IODOrder.h; sourceTree = "<group>"; };
+		722DCCF015EE095F0039BDF7 /* IODOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IODOrder.m; path = Models/IODOrder.m; sourceTree = "<group>"; };
 		729C07E215ED98510082C277 /* iOSDiner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDiner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		729C07E615ED98510082C277 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		729C07E815ED98510082C277 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -131,6 +137,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		722DCCE715EE08A60039BDF7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				722DCCEC15EE09300039BDF7 /* IODItem.h */,
+				722DCCED15EE09300039BDF7 /* IODItem.m */,
+				722DCCEF15EE095F0039BDF7 /* IODOrder.h */,
+				722DCCF015EE095F0039BDF7 /* IODOrder.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		729C07D715ED98510082C277 = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +178,7 @@
 		729C07EC15ED98510082C277 /* iOSDiner */ = {
 			isa = PBXGroup;
 			children = (
+				722DCCE715EE08A60039BDF7 /* Models */,
 				729C080315ED9AE80082C277 /* Resources */,
 				729C07F515ED98510082C277 /* IODAppDelegate.h */,
 				729C07F615ED98510082C277 /* IODAppDelegate.m */,
@@ -349,6 +367,8 @@
 				729C07F315ED98510082C277 /* main.m in Sources */,
 				729C07F715ED98510082C277 /* IODAppDelegate.m in Sources */,
 				729C07FD15ED98510082C277 /* IODViewController.m in Sources */,
+				722DCCEE15EE09300039BDF7 /* IODItem.m in Sources */,
+				722DCCF115EE095F0039BDF7 /* IODOrder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +484,7 @@
 				729C080215ED98510082C277 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
